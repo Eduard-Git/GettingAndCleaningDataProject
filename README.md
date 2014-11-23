@@ -30,11 +30,13 @@ How to execute this project
 ----------------------------
 
 1. Set your working directoy for your R environment/tool to be on the same path as the dataset "UCI HAR Dataset" folder. More details on first line of run_analysis.R script.
+
 2. Execute run_analysis.R.
 
 
 Outputs produced
 ----------------
-* Tidy dataset file `tidy_dataset.txt` (tab-delimited text)
+* Tidy dataset file `tidy_dataset.txt` (tab-delimited text).
 This output can be loaded in R using the following line:
+
 > read.table("tidy_dataset.txt")
