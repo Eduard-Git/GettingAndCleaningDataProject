@@ -49,24 +49,26 @@ Tidy Dataset Justification
 This is a tidy data set because is achieving all the characteristics of a data set:
 
 1. Each variable you measure should be in one column.
-    · There is no more than one measure per column.
+*Justification:* There is no more than one measure per column.
 
 2. Each different observation of that variable should be in a different row.
-    · There is no more than one observation of the SAME variable per row.
+*Justification:* There is no more than one observation of the SAME variable per row.
 
-3. There should be one table for each "kind" of variable
-    · We have only one table (dataset) for all the variables that are measuring relations with the subjects movement in relation with some activty.
+3. There should be one table for each "kind" of variable.
+*Justification:* We have only one table (dataset) for all the variables that are measuring relations with the subjects movement in relation with some activty.
 
-4. If you have multiple tables, they should include a column in the table that allows them to be linked
-    · As we have only one table, this doesn't apply.
+4. If you have multiple tables, they should include a column in the table that allows them to be linked.
+*Justification:* s we have only one table, this doesn't apply.
+
 
 Some other important charactersitiques:
 
-- Include a row top at the top of each file with variable names
-    · The variable names (column labels) are in the data set at the top.
 
-- Make variable names human readable AgeAtDiagnosis instead of AgeDx
-    · The variable names (column labels) are understandable and human readable. Doesn't contain any ilegal character (i.e. -, ., etc). And they follow a Camel case approach (i.e. fooVar). I have not extended the abreviature because is understandable enough and writing the full word will be counterproductive.
+5. Include a row top at the top of each file with variable names.
+*Justification:* The variable names (column labels) are in the data set at the top.
 
-- In general data should be saved in one file per table
-    · There is only one table in this file.
+6. Make variable names human readable AgeAtDiagnosis instead of AgeDx.
+*Justification:* The variable names (column labels) are understandable and human readable. Doesn't contain any ilegal character (i.e. -, ., etc). And they follow a Camel case approach (i.e. fooVar). I have not extended the abreviature because is understandable enough and writing the full word will be counterproductive.
+
+7. In general data should be saved in one file per table.
+*Justification:* There is only one table in this file.
