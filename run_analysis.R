@@ -74,3 +74,6 @@ names(ds) <- make.names(ds_names)
 library(reshape2)
 ds_melt <- melt(ds, id.vars=c("subject" ,"activity"))
 tidy <- dcast(ds_melt, subject + activity ~ variable, mean)
+
+## Output wrote in to a file. Print is not useful at all.
+write.table(tidy, file="tidy_dataset.txt", row.names = FALSE)
