@@ -54,24 +54,11 @@ The following files are available for the train and test data. Their description
 
 
 
-Data Dictionary
-===============
-
-*subject* - An id to identify the subject. Range [1,30].
-
-*activity* - A descriptive name for the activity done while mesuring the variables in the same row.
-    WALKING
-    WALKING_UPSTAIRS
-    WALKING_DOWNSTAIRS
-    SITTING
-    STANDING
-    LAYING
-
 ## Analysis Variables (available in .txt files within dataset)
 | Variable | Descritpion
 | -------- |---------
 | subject | An id to identify the subject. Range [1,30].
-| activity | A descriptive name for the activity done while mesuring the variables in the same row.Posible values: [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING]
+| activity | A descriptive name for the activity done while mesuring the variables in the same row. Posible values: [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING]
 | tBodyAccMeanX | Mean time for acceleration of body for X direction.
 | tBodyAccMeanY | Mean time for acceleration of body for Y direction.
 | tBodyAccMeanZ | Mean time for acceleration of body for Z direction.
