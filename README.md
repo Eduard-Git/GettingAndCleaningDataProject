@@ -29,13 +29,9 @@ Project instructions
 Tasks performed
 ----------------
 
-1.1 Load training data sets and merge them into one.
-1.2 Load test data sets and merge them into one.
-1.3 Merge training and test set to create one data set.
+1. Load training data sets and merge them into one. Load test data sets and merge them into one. Merge training and test set to create one data set.
 
-2. Take the features that includes mean() or std() function results. meanFreq and gravityMean are not considered the same as mean. Therefore they are not included.
-
-2.1 Add features names to dataset columns.
+2. Take the features that includes mean() or std() function results. meanFreq and gravityMean are not considered the same as mean. Therefore they are not included. Add features names to dataset columns.
 
 3. Add descriptive activity names to name the activities in the data set.
 
